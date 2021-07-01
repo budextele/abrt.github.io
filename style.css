@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/*import font*/
+
+
+
+body {
+    /*mengatur seluruh dalam tag body*/
+    font-family: Abel, 'Big Shoulders Stencil Display', sans-serif;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+}
+
+
+h2,
+h3 {
+    /*mengatur h2 h3*/
+    color: #00a2c6
+}
+
+nav a {
+    /*mengatur nav pada tag a*/
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+
+}
+
+nav a:hover {
+    /*memberikan efek cursor pada link*/
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.profile header {
+    /*class profil yang di dalam header*/
+    text-align: center;
+}
+
+footer {
+    /*memberikan efek pada footer*/
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    /*mengatur table*/
+    text-align: left;
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+#h3 {
+    /*mengatur h3 dengan id*/
+    margin-top: 2em;
+    color: aqua;
+}
+
+
+#img {
+    /*tambahan sendiri*/
+    display: block;
+    /*max-width: 700px;*/
+    border: transparent;
+    margin: auto;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.featured-image {
+    /*mengatur img dengan class*/
+    width: 100%;
+    max-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img {
+    /*mengatur bentuk kfimg profil*/
+    width: 200px;
+}
+
+.card {
+    /*memberikan efek kotak pada tiap2 artikle*/
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.66);
+    border-radius: 5px;
+    /*tambahan sendiri*/
+    padding: 20px;
+    margin: 0px 0px 20px 20px;
+}
+
+.jumbotron {
+    /*untuk membuat h1 menjadi jumbo*/
+    font-size: 20px;
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    /*untuk memberikan efek pada elemen navigation*/
+    background-color: #00a2c6;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
