@@ -115,6 +115,9 @@ nav {
     background-color: #00a2c6;
     padding: 5px;
     margin-bottom: 20px;
+    /*membuat navigasi dapat melekat pada jendela browser (layaknya fixed position) tetapi posisi awalnya tetap menempati posisi di mana ia seharusnya berada (layaknya relative position)*/
+    position: sticky;
+    top: 0;
 }
 
 main {
@@ -141,6 +144,21 @@ main {
 }
 
 * {
-    /*menentukan dimensi kotak dengan tepat, tanpa dipengaruhi oleh padding dan border. */
+    /*menentukan dimensi kotak dengan tepat, tanpa dipengaruhi oleh padding dan border.*/
     box-sizing: border-box;
+}
+
+/*menambah fitur media queries untuk memindahkan aside ke bawah*/
+@media screen and (max-width: 1024px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+header {
+    /*Bagaimana agar navigasi dapat menempel pada seluruh halaman? Buat elemen <header> sebagai induk dari elemen <nav> yang menerapkan properti display dengan nilai inline*/
+    display: inline;
 }
